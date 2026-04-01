@@ -36,7 +36,7 @@ ttk.Label(root, text="IP:").place(x=10, y=52)
 entry_ip = ttk.Entry(root)
 ttk.Label(root, text="Port:").place(x=160, y=52)
 entry_port = ttk.Entry(root)
-label = tk.Label(root, text="Próba mikrofonu!")
+
 label2 = tk.Label(root, text=f"{actual_time}")
 ok_btn = ttk.Button(root, text="Send!")
 
@@ -50,7 +50,7 @@ entry_ip.place(x=30, y=52)
 entry_port.place(x=190, y=52)
 
 combo_box.place(x=10, y=72)
-label.place(x=10, y=10)
+
 label2.place(x=10, y=30)
 ok_btn.place(x=10, y=92)
 
